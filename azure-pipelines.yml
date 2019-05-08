@@ -14,7 +14,7 @@ steps:
       chmod +x ./build.sh
     displayName: Download Bedrock orchestration script
     env:
-      BEDROCK_BUILD_SCRIPT: https://raw.githubusercontent.com/Microsoft/bedrock/master/gitops/azure-devops/build.sh
+      BEDROCK_BUILD_SCRIPT: https://raw.githubusercontent.com/samiyaakhtar/bedrock/teamcity/gitops/azure-devops/build.sh
 
   - task: ShellScript@2
     displayName: Validate fabrikate definitions
